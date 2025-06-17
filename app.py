@@ -41,7 +41,7 @@ tk = pickle.load(open("vectorizer.pkl", 'rb'))
 model = pickle.load(open("model.pkl", 'rb'))
 
 st.title("SMS Spam Detection Model")
-st.write("*Made by Shivaraj Taware*")
+st.write("*Made by Singh Digyavijay*")
     
 
 input_sms = st.text_input("Enter the SMS")
